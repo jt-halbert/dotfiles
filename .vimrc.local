@@ -1,0 +1,13 @@
+colorscheme solarized
+
+"Slime setup
+let g:slime_target = "tmux"
+
+" configure browser for haskell_doc.vim
+let g:haddock_browser = "google-chrome-stable"
+
+" habit breaking
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
