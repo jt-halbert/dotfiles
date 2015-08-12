@@ -1,5 +1,8 @@
 colorscheme solarized
 
+" get rid of indent guides by default
+let g:indent_guides_enable_on_vim_startup = 0
+
 "Slime setup
 let g:slime_target = "tmux"
 
